@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CatPhotoApp</title>
+</head>
+<body>
+   <h1>CatPhotoApp</h1>
+   <main>
+   <h3>Cat Photos</h3>
+   <!--TODO: add to cat photos-->
+    <p> Click here to view more <a href="https://www.pinterest.com/romipins/cute-cats/" target="_blank">Cat Photos.</a> </p>
+   <a href="https://www.pinterest.com/romipins/cute-cats/" target="_blank"> <img src="cat.jpeg" alt="A cute cat sat on floor"/></a>
+    <h3>Cat Lists</h3>
+    <div class="lists">
+    <p> Things cats <em>love</em>:</p>
+    <ul>
+    <li>Cat nip</li>
+    <img src="cat_nip.jpeg" alt="cat nip"/>
+    <li>Laser pointers </li>
+    
+    <li>Lasagna</li>
+    <img src="lasagna.jpeg" alt="lasagna"/>
+    </ul>
+    <p>Things cat <strong>hate</strong>:</p>
+    <ol>
+    <li>flea treatment</li>
+    <li>Thunder</li>
+    <li>other cats</li>
+    <img src="group_of_cats.jpeg" alt="group of cats"/>
+    </ol>
+    </div>
+    <form action="/submit-cat-photo">
+
+   <label for="indoor"> <input id="indoor" type="radio" name="indoor-outdoor">Indoor</label>
+   </br>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" checked/>Outdoor</label>
+    </br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" checked>loving</label> 
+    </br>
+    <label for="lazy"><input id="lazy" type="checkbox" name="personality">Lazy</label> 
+    </br>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" checked>Energetic</label> 
+    </br>
+
+
+    <input type="text" placeholder="Cat Photo URL" required/>
+    <button type="submit">Submit</button>
+    </form>
+   </main>
+   <fotter>
+   <p><small>No Copyright-<a href="https://www.youtube.com/watch?v=916GWv2Qs08&list=PLWKjhJtqVAbmMuZ3saqRIBimAKIMYkt0E">FREE CODING ON YT</a> </p>
+   </footer>
+</body>
+</html>
